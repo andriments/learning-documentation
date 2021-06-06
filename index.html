@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learning Documentation</h1>
+    <form action="" id="form">
+        <div class="form-group">
+            <label for="Name">Name:<input type="text" name="name" id="name"></label>
+        </div>
+        <div class="form-group">
+            <label for="Course/Block">Course/Block:<input type="text" name="Course/block" id="Cblock"></label>
+        </div>
+         <div class="form-group">
+            <label for="Date">Date:<input type="Date" name="Date" id="Date"></label>
+         </div>
+         <div class="form-group">
+            <label for="Project title">Project title:<input type="text" name="Project title" id="Ptitle"></label>
+        </div>
+
+         <table border="4">
+            <thead>
+            <tr>
+                <th>What I Know</th>
+                <th>What I Want to Know</th>
+                <th>What I learned</th>
+                <th>Possible Projects Utilizing What I have learned</th> 
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td><textarea name="What I Know" id="whatIk" ></textarea></td>
+                    <td><textarea name="What I Want to Know" id="wiwtk"></textarea></td>
+                    <td><textarea name="What I learned" id="wil"></textarea></td>
+                    <td><textarea name="Possible Projects Utilizing What I have learned" id="ppuwihl"></textarea></td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    <br><br>
+    <button type="submit" class="btn btn-primary">SUBMIT</button>
+
+    <div id="displaydata">
+        <!--Display data from local storage-->
+    </div>
+</form>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
